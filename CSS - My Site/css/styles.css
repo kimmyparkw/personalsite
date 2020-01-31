@@ -1,0 +1,162 @@
+/*tags*/
+div {
+  background-color: white;
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Cormorant', serif;
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+color: #66BFBF;
+font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/*classes*/
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 16px;
+}
+
+.intro {
+  line-height: 2;
+  width: 45%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding {
+  width: 25%;
+  float:left;
+  margin-right: 20px;
+}
+
+.technical-design {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.product-design {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.coding-icon-attribution {
+  clear: left;
+  font-size: 8px;
+}
+
+.td-icon-attribution {
+  clear: right;
+  font-size: 8px;
+}
+
+.pd-icon-attribution {
+  clear: left;
+  font-size: 8px;
+}
+
+.bottom-container {
+  margin-top: 20px;
+}
+
+.btn {
+  box-shadow: 0 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color:#599bb3;
+  border-radius:10px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Trebuchet MS;
+  font-size:20px;
+  padding:10px 30px;
+  text-decoration:none;
+  text-shadow:0 1px 0 #5fb0b3;
+  margin: 20px auto;
+}
+.btn:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color:#408c99;
+}
+.btn:active {
+  position:relative;
+  top:1px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0
+}
